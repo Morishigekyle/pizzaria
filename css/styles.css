@@ -1,0 +1,207 @@
+html {
+	background: url(http://www.pizzaparties.com.au/wp-content/uploads/2015/01/pizza-parties-slide-1-new-blur.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-background-size: cover;
+
+
+}
+
+#name {
+	background-image:url(http://c8.alamy.com/comp/HRC297/pizza-background-close-up-macro-shot-of-pepperoni-pizza-HRC297.jpg);
+
+	width: 100%;
+	margin:auto;	
+	border:5px outset lightgrey;
+	text-align:center;
+	color:white;
+	box-shadow:0 0 30px white;
+	text-shadow:0 0 20px black;
+	background-size:100%;
+	
+}
+
+#tagline {
+	border-color: transparent;
+	width: 50%;
+	margin: auto;
+	text-align:center;
+	color:white;
+	border:5px outset lightgrey;
+	box-shadow:0 0 30px white;
+	text-shadow:0 0 20px black;
+	background-image:url(https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX8782754.jpg);
+	background-size:100%;
+
+}
+
+@keyframes flashes {
+	from {border-top:5px dotted black;
+	border-bottom:5px dotted black;
+	border-right:5px dotted black;
+	border-left:5px dotted black;}
+	to {border-top:5px dotted white;
+	border-bottom:5px dotted white;
+	border-right:5px dotted 
+		white;
+	border-left:5px dotted white;}
+}
+
+ul {
+	background-image:url(http://www.rgbstock.com/cache1zWShc/users/x/xy/xymonau/300/ptPBoky.jpg);
+	background-size: 100%;
+	width: 100%;
+	text-align:center;
+	color:white;
+	box-shadow: 0 0 20px white;
+	text-shadow:0 0 20px black;
+	display:flex;
+	align-items:stretch;
+	margin:0;
+	padding:0;
+	text-align:center;
+	justify-content: space-between;
+	border-top:5px dotted black;
+	border-bottom:5px dotted black;
+	border-right:5px dotted black;
+	border-left:5px dotted black;
+	box-shadow:inset 0 -2px 0 0 black, inset 0 2px 0 0 black, 0 2px;
+	box-shadow:0 0 30px white;
+	animation-name: flashes;
+	animation-duration:0.3s;
+	animation-iteration-count: infinite;
+
+	
+
+}
+
+li {
+	display:block;
+	flex:0 1 auto;
+	list-style-type: none;
+	
+}
+
+@keyframes specials {
+	from {color:white;}
+	to {font-weight:bolder;
+		color:red;}
+	
+
+}
+#today {
+	background-color:;
+	text-align:center;
+	width:80%;
+	margin:auto;
+	top:50%;
+	vertical-align: middle;
+	border:6px outset grey ;
+	border-radius:30px;
+	text-decoration:underline;
+	text-shadow: 0px 5px 5px rgba(255, 255, 255, 0.5);
+	font-size:30px;
+	color:red;
+	font-weight:bold;
+	box-shadow:0 0 30px white;
+	animation-name:specials;
+	animation-duration:8s;
+	animation-iteration-count:infinite;
+	position:relative;
+
+	
+
+}
+
+#today:hover {
+	filter:blur(0px);
+}
+
+
+
+#menu {
+	/*position:relative;*/
+	top:10px;
+	left:;
+	border:3px outset lightgrey;
+	height:100%;
+	width:100%;
+	background-image:url(http://images.all-free-download.com/images/graphiclarge/black_menu_vector_background_519780.jpg);
+	background-size:cover;
+	font-weight:bold;
+	text-align:center;
+	box-shadow:0 0 30px white;
+
+}
+
+#pizzaMenu {
+	padding-top:30%;
+	padding-left:75px;
+	padding-right:75px;
+
+}
+
+.pizzaName {
+	color:lightgrey;
+	font-weight:bolder;
+	font-size:20px;
+	text-decoration:underline;
+}
+
+.description {
+	color:white;
+	font-style:italic;
+
+}
+
+.price {
+	color:white;
+	text-shadow:0 5px 3px lightgrey;
+}
+
+#subscribe {
+	background-image:url(https://c1.staticflickr.com/6/5056/5510266273_fd6594c70c_b.jpg);
+	border:9px outset lightgrey;
+	padding-left:10px;
+	padding-bottom:5px;
+	/*filter:grayscale(50%);*/
+	background-blend-mode:darken;
+	text-shadow:0 0 5px black;
+	box-shadow:0 0 30px white;
+	border-bottom:none;
+}
+
+#deal {
+	color:white;
+	font-weight:bolder;
+	text-decoration-style:italic;
+	display:inline;
+	font-size:25px;
+	text-shadow:0 0 5px black;
+
+}
+
+.sectionTitle {
+	color:white;
+	font-size:50px;
+	text-decoration:underline;
+	font-weight:bolder;
+	display:inline;
+}
+
+#visit {
+	background-image:url(https://c1.staticflickr.com/6/5056/5510266273_fd6594c70c_b.jpg);
+	border:9px inset lightgrey;
+
+
+}
+#addy {
+	color:black;
+}
+
+.contentCredit {
+	color:lightgray;
+}
+
+
