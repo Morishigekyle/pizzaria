@@ -3,21 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pizzaria</title>
+	<link rel="styleSheet" href="css/styles.css"
 </head>
 <body>
 	<h1 id="intro">
 		<div class="content">
 			<h1 id="name">Pizzaria La DevLeague</h1>
+			<p></p>
 			<h2 id="tagline">Functional Pizza For All!</h2>
-			<img src="assets/pizzaMan.jpeg" alt="logo">
-			<li class="guide"></li>
-				<a href="#today">Today's Special</a>
-			<li class="guide"></li>
-				<a href="#menu">Menu</a>
-			<li class="guide"></li>
-				<a href="#subscribe">Subscribe</a>
-			<li class="guide"></li>
-				<a href="#visit">Visit</a>
+			<p></p>
+			<ul>
+				<li class="guide">
+					<a href="#today">Today's Special</a>
+				</li>
+				<li class="guide">
+					<a href="#menu">Menu</a>
+				</li>
+				<li class="guide">
+					<a href="#subscribe">Subscribe</a>
+				</li>
+				<li class="guide">
+					<a href="#visit">Visit</a>
+				</li>
+			</ul>
 		</div>
 	</h1>
 <section id="today">
@@ -26,9 +34,9 @@
 		<p id="special">Conditional Love</p>
 	</div>
 </section>
+<p></p>
 <section id="menu">
-	<div class="content">
-		<h3 class="sectionTitle">Menu</h3>
+	<div class="content" id="pizzaMenu">
 		<div class="pizza">
 			<p class="pizzaName">Object of My Desire</p>
 			<p class="description">A Programmers Delight, this classic has string cheese, an array of BBQ meats, and 1 special sauce.</p>
@@ -56,10 +64,13 @@
 		</div>
 	</div>
 </section>
+<p></p>
 <section id="subscribe">
 	<div class="content">
 		<h3 class="sectionTitle">Subscribe</h3>
+		<p></p>
 		<p id="deal">Sign up for our special deals!</p>
+		<p></p>
 		<input placeholder="FirstName">
 		<input placeholder="LastName">
 		<input placeholder="Email">
@@ -71,7 +82,7 @@
 		<ul id="addy">
 			<li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
 			<li id="map">
-				<a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543">View Map</a>
+				<a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map</a>
 			<li class="hours">Monday - Saturday</li>
 			<li class="hours">12pm - 12am</li>
 			<li class="hours">Coding On Sundays</li>
@@ -80,7 +91,7 @@
 	</div>
 </section>
 <footer>
-	<div class="content">
+	<div class="contentCredit">
 		<p id="credit">Site Design and Development By Kyle Morishige</p>
 		<p id="copyright">&copy 2017 Gin Drinkers Association (GDA)</p>
 	</div>
